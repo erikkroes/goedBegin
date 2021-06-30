@@ -2,82 +2,83 @@
 layout: layout.html
 ---
 
-# Solid Start
+# Goed Begin
 
-Do you make digital things for other people? Awesome—because this page is all about making for people. There are four ways you can improve your creation for everybody. All four ways are testable, fixable and they improve usability for everybody.
+Maak jij digitale dingen voor andere mensen? Top, want deze pagina gaat volledig over maken voor mensen. Er zijn vier manieren waarop je jouw creatie voor iedereen kan verbeteren. Alle vier de manieren zijn te testen, op te lossen en verbeteren de bruikbaarheid voor iedereen.
 
-## Table of Contents
+## Inhoudsopgave
 
 <ul>
-  <li><a href="#four-things">Four improvements</a>
+  <li><a href="#vier-verbeteringen">Vier verbeteringen</a>
     <ol>
-      <li><a href="#keyboard">Keyboard</a></li>
+      <li><a href="#toetsenbord">Toetsenbord</a></li>
       <li><a href="#contrast">Contrast</a></li>
-      <li><a href="#alternatives">Alternatives</a></li>
-      <li><a href="#sizing">Sizing</a></li>
+      <li><a href="#alternatieven">Alternatieven</a></li>
+      <li><a href="#formaat">Formaat</a></li>
     </ol>
   </li>
-  <li><a href="#inclusive-design">Inclusive Design</a></li>
-  <li><a href="#contributions">Contributions</a></li>
-  <li><a href="#resources">Resources</a></li>
+  <li><a href="#inclusief-ontwerp">Inclusief Ontwerp</a></li>
+  <li><a href="#bijdragen">Bijdragen</a></li>
+  <li><a href="#bronnen">Bronnen</a></li>
 </ul>
 
-<h2 id="four-things">Four improvements</h2>
+<h2 id="vier-verbeteringen">Vier verbeteringen</h2>
 
-There is one big assumption for a solid start. It assumes you know the basics of your tools. Validate your code.
+Er is één flinke aanname voor een goed begin. Het gaat ervan uit dat je de basis van je gereedschappen kent. Valideer je code.
 
-<h3 id="keyboard">1. Keyboard</h3>
+<h3 id="toetsenbord">1. Keyboard</h3>
 
-You are not building for you.
-Not everybody uses a mouse, so you shouldn’t test with just a mouse. The most universal device to test with is a keyboard. A lot of people either use a keyboard, or use something that interacts with your creation like a keyboard.
+Je bouwt niet voor jezelf. Niet iedereen gebruikt een muis, dus test niet alleen met een muis. Het meest universele apparaat om mee te testen is een toetsenbord. Veel mensen gebruiken een toetsenbord of gebruiken iets dat samenwerkt met je creatie zoals een toetsenbord dat doet.
 
-Pressing the <kbd>Tab</kbd> key should take you to every interactive element in an intuitive order. Pressing <kbd>Shift+Tab</kbd> should take you the opposite way. If you can reach **and** use every bit of functionality, you’re off to a good start.
+Als je de <kbd>Tab</kbd>-toets gebruikt, hoor je in een intuïtieve volgorde naar elk interactief element te gaan. Als je op <kbd>Shift+Tab</kbd> drukt, zou je de tegenovergestelde kant op moeten gaan. Als je alle functionaliteiten kan bereiken **en** gebruiken, dan ben je goed bezig.
 
-Make sure it is clear which element is focused. People might feel lost when they don’t know where they are. 
+Zorg er altijd voor dat het duidelijk is welk element de focus heeft. Zo kunnen mensen zich niet verdwaald voelen.
 
 <h3 id="contrast">2. Contrast</h3>
 
-Contrast is essential. It can be hard to communicate if your content isn’t visible to people. 
+Contrast is essentieel. Het communiceert lastig als je inhoud niet zichtbaar is voor mensen. 
 
-There are many tools to measure contrast by providing a ratio. The [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) is used by a lot of people. You can also pick a tool from the [resources](#resources), or one that might already be inside your favorite environment. Each tool will give you a contrast ratio between two colors, like a foreground and background color. The visibility of a higher contrast ratio is better. Pure black and white can be too harsh for people.
+Er zijn veel gereedschappen die contrast meten door middel van een verhouding. De [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) wordt door veel mensen gebruikt. Je kan ook een gereedschap kiezen uit de [bronnen](#bronnen), of misschien eentje die al in je favoriete omgeving zit. Elk gereedschap geeft je een contrastverhouding tussen twee kleuren, zoals een voorgrond- en achtergrondkleur. De zichtbaarheid van een hogere contrastverhouding is beter. Puur zwart-wit kan te hard zijn voor mensen.
 
-User interface components and states should have a contrast ratio of at least **3.0:1**. Measure this ratio against their surrounding colors. The contrast ratio of large text (at least 24px, or at least 19px and bold) should be **3.0:1** or more. All other text should be at least **4.5:1**. These are minimum requirements, not goals.
+Componenten en statussen van de gebruikersinterface moeten een contrastverhouding van minimaal **3,0:1** hebben. Meet deze verhouding tegen hun omringende kleuren. De contrastverhouding van grote tekst (minstens 24px, of minstens 19px en vetgedrukt) moet **3,0:1** of meer zijn. Alle andere tekst moet minimaal **4,5:1** zijn. Dit zijn minimumvereisten, geen doelen.
 
-<h3 id="alternatives">3. Alternatives</h3>
+<h3 id="alternatieven">3. Alternatieven</h3>
 
-Ever tried to watch a movie in a busy place, or listen to a podcast without headphones? When you can’t see or hear, a text is a nice alternative to have! 
+Ooit geprobeerd een film te kijken op een drukke plek, of naar een podcast te luisteren zonder koptelefoon? Als je niet kunt zien of horen, is tekst een prettig alternatief om te hebben!
 
-Offer captions for video. Offer a transcript for podcasts. For images, offer text alternatives. Text alternatives should convey the purpose of the image or the content of the image. A decorative image needs no alternative.
+Bied ondertiteling aan voor video. Bied een transcriptie aan voor podcasts. Bied voor afbeeldingen tekstalternatieven aan. Tekstalternatieven moeten het doel van de afbeelding of de inhoud van de afbeelding overbrengen. Een decoratief beeld heeft geen alternatief nodig.
 
-<h3 id="sizing">4. Sizing</h3>
+<h3 id="formaat">4. Formaat</h3>
 
-Compare a mobile phone to a tablet, a laptop or a PC. No screen size is the same. Make sure that what you make offers the same content and functionality to all sizes. Let people experience it at whatever size they want or need.
+Vergelijk een mobiele telefoon met een tablet, een laptop of een pc. Geen enkele schermgrootte is hetzelfde. Zorg ervoor dat wat je maakt dezelfde inhoud en functionaliteit biedt voor alle formaten. Laat mensen het ervaren in het formaat van hun voorkeur.
 
-<h2 id="inclusive-design">Inclusive Design</h2>
 
-Congratulations! Follow these steps and you're helping a lot of people. 
+<h2 id="inclusief-ontwerp">Inclusief Ontwerp</h2>
 
-This is also just a first step, and there’s more you can do. Want to know more about Inclusive Design and WCAG (Web Content Accessibility Guidelines)? Check the [resources](#resources)!
+Gefeliciteerd! Volg deze stappen en je helpt veel mensen.
 
-<h2 id="contributions">Contributions</h2>
+Tegelijkertijd is dit ook slechts een eerste stap, en er is meer wat je kan doen. Meer weten over Inclusief ontwerp en WCAG (Web Content Accessibility Guidelines)? Bekijk de [bronnen](#bronnen)!
 
-This page is not a collaboration without contributions. Your help can make it even better. Create inclusively.
+<h2 id="bijdragen">Bijdragen</h2>
 
-- Contribute on [GitHub](https://github.com/erikkroes/solidStart)
-- Follow on [Twitter](https://twitter.com/erikKroes)
+Deze pagina is geen samenwerking zonder bijdragen. Jouw hulp kan het nog beter maken. Creër inclusief.
 
-<h2 id="resources">Resources</h2>
+- Draag bij op [GitHub](https://github.com/erikkroes/goedBegin)
+- Volg op [Twitter](https://twitter.com/erikKroes)
 
+<h2 id="bronnen">Bronnen</h2>
+
+- [WCAG in het Nederlands](|https://www.w3.org/Translations/WCAG21-nl/)
 - [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
-- [Contrast Grid](https://contrast-grid.eightshapes.com/) - A great tool for color palettes
-- [An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) - A W3C tool to determine the type of text alternative for images.
-- [The WebAIM Million](https://webaim.org/projects/million/) - An annual accessibility analysis of the top 1,000,000 home pages
-- [Axe](https://www.deque.com/axe/) - An open source automated tool for testing partial web accessibility. Great for learning and awareness.
+- [Contrast Grid](https://contrast-grid.eightshapes.com/) - Een fijn gereedschap voor kleurenpaletten
+- [An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) - Een W3C gereedschap om het soort tekstalternatief voor afbeeldingen te kiezen.
+- [The WebAIM Million](https://webaim.org/projects/million/) - Een jaarlijkse analyse van de toegankelijkheid van de top 1.000.000 homepages
+- [Axe](https://www.deque.com/axe/) - Een geautomatiseerde open source gereedschap voor het testen van gedeeltelijke webtoegankelijkheid. Geweldig voor zowel leren als bewustzijn.
 - [Screen Reader Reference](https://dequeuniversity.com/screenreaders/)
 
-<h3 id="courses">Courses</h3>
+<h3 id="cursussen">Cursussen</h3>
 
-- [Web Accessibility by Google at Udacity](https://www.udacity.com/course/web-accessibility--ud891)
-- [Digital Accessibility by University of Southampton at Future Learn](https://www.futurelearn.com/courses/digital-accessibility)
-- [ICT Accessibility by Georgia Tech at edX](https://www.edx.org/course/information-and-communication-technology-ict-acces)
+- [Web Accessibility door Google bij Udacity](https://www.udacity.com/course/web-accessibility--ud891)
+- [Digital Accessibility door University of Southampton bij Future Learn](https://www.futurelearn.com/courses/digital-accessibility)
+- [ICT Accessibility door Georgia Tech bij edX](https://www.edx.org/course/information-and-communication-technology-ict-acces)
