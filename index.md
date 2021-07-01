@@ -68,7 +68,7 @@ Deze pagina is geen samenwerking zonder bijdragen. Jouw hulp kan het nog beter m
 
 <h2 id="bronnen">Bronnen</h2>
 
-- [WCAG in het Nederlands](|https://www.w3.org/Translations/WCAG21-nl/)
+- [WCAG in het Nederlands](https://www.w3.org/Translations/WCAG21-nl/)
 - [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [Contrast Grid](https://contrast-grid.eightshapes.com/) - Een fijn gereedschap voor kleurenpaletten
