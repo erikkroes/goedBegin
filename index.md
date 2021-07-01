@@ -26,7 +26,7 @@ Maak jij digitale dingen voor andere mensen? Top, want deze pagina gaat volledig
 
 Er is één flinke aanname voor een goed begin. Het gaat ervan uit dat je de basis van je gereedschappen kent. Valideer je code.
 
-<h3 id="toetsenbord">1. Keyboard</h3>
+<h3 id="toetsenbord">1. Toetsenbord</h3>
 
 Je bouwt niet voor jezelf. Niet iedereen gebruikt een muis, dus test niet alleen met een muis. Het meest universele apparaat om mee te testen is een toetsenbord. Veel mensen gebruiken een toetsenbord of gebruiken iets dat samenwerkt met je creatie zoals een toetsenbord dat doet.
 
